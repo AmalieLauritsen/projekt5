@@ -12,6 +12,7 @@ body{
 	width: 414px;
 }
 
+/* TEXT */
 h1{
 	font-size: 25px;
 	margin: 0;
@@ -66,14 +67,17 @@ header img{
 	justify-content: center;
 	width: 150px;
 }
-
-.runde a{
+.rundecirkler a{
 	align-items: center;
 	display: flex;
 	justify-content: center;
 }
+.rundecirkler img{
+	height: 150px;
+	width: auto;
+}
 
-/* NAVIGRATION */
+/* NAVIGRATION (footer) */
 nav{
 	align-items: center;
 	background: #ffffff;
@@ -87,9 +91,22 @@ nav img{
 	width: auto;
 }
 
-/* FORSIDE */
+/* INDEX.html */
 #forside{
 	background-image: url("img/forside.jpg");
 	background-position: center;
 	background-size: cover;
+}
+
+/* OVERSIGT.html */
+.silhouetter{
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.silhouetter img{
+	height: 150px;
+	width: auto;
 }

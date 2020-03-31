@@ -8,19 +8,13 @@
   <meta name="author" content="Gruppe 5">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
-	<title>Figurjagten</title>
+	<title>Oversigt</title>
 </head>
 <body>
 	<div class="container">
 		<header>
 			<img src="img/logo.png" alt="COOP-logo">
 		</header>
-		<div class="silhouetter">
-			<img src="img/icons/hjem.png" alt="Silhouet af figur1">
-			<img src="img/icons/hjem.png" alt="Silhouet af figur2">
-			<img src="img/icons/hjem.png" alt="Silhouet af figur3">
-			<img src="img/icons/hjem.png" alt="Silhouet af figur4">
-		</div>
 		<nav>
 			<a href="#"><img src="img/icons/hjem.png" alt="hjem-navigationsikon"></a>
 			<a href="#"><img src="img/icons/hjem.png" alt="hjem-navigationsikon"></a>
