@@ -150,9 +150,34 @@ nav img{
 	flex-wrap: wrap;
 	justify-content: space-around;
 }
-
 .silhouetter img{
 	height: 150px;
 	margin: 25px 0;
 	width: auto;
+}
+
+/* FIGURSIDER */
+.figurquiz{}
+.figurquiz img{
+	height: 150px;
+	width: auto;
+}
+.figurligemed{
+	align-items: center;
+	display: flex;
+	height: 150px;
+	justify-content: space-around;
+}
+.symbol{
+	font-size: 150px;
+}
+.quizsvar{
+	box-sizing: border-box;
+	margin: 75px 0;
+}
+.quizvalgmuligheder{
+	align-items: center;
+	display: flex;
+	height: 150px;
+	justify-content: space-around;
 }
