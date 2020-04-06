@@ -10,47 +10,58 @@ section{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	margin: 50px 0;
 	padding: 50px;
 }
 
 /* TEXT */
+h1{
+	font-size: 30px;
+}
+h2{
+	font-size: 20px;
+}
 h3{
-	margin: 23px 0 23px 0;
+	font-size: 15px;
+}
+p{
+	font-size: 10px;
 }
 
 /* FARVER */
 .farver{
-	display: flex;
-
 	background: red;
 }
 .farvetyper{
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 }
+
 .primeare, .sekundeare, .tints1, .tints2, .status{
 	display: flex;
 	flex-direction: column;
-	margin: 0 25px;
+	height: 350px;
+	width: 30%;
 
 	background: green;
 }
+
 .farvecirkler{
 	align-items: center;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
-	width: 100%;
 
 	background: blue;
 }
 .circle{
 	border-radius: 50%;
-	height: 100px;
-	margin: 0 10px;
-	width: 100px;
+	height: 75px;
+	margin: 10px;
+	width: 75px;
+}
 
-	background: black;
+.tints{
+	display: flex;
 }
 
 /* FONTS */
