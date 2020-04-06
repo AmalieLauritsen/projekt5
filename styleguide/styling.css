@@ -6,11 +6,7 @@ body{
 }
 
 section{
-	align-items: center;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	padding: 50px;
+	padding: 30px;
 }
 
 /* TEXT */
@@ -33,35 +29,32 @@ p{
 }
 .farvetyper{
 	display: flex;
-	flex-direction: column;
+	width: 100%;
 }
 
 .primeare, .sekundeare, .tints1, .tints2, .status{
 	display: flex;
 	flex-direction: column;
 	height: 350px;
-	width: 30%;
-
+	width: 500px;
+	margin: 10px;
 	background: green;
 }
-
+.status{
+	height: 510px;
+	width: 250px;
+}
 .farvecirkler{
 	align-items: center;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-
-	background: blue;
 }
 .circle{
 	border-radius: 50%;
 	height: 75px;
 	margin: 10px;
 	width: 75px;
-}
-
-.tints{
-	display: flex;
 }
 
 /* FONTS */
