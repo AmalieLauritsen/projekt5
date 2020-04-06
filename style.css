@@ -18,10 +18,13 @@ h1{
 	font-size: 25px;
 	margin: 0;
 }
-h2{}
+h2{
+	font-size: 20px;
+	margin: 0;
+}
 
 p{
-	font-size: 15px;
+	font-size: 20px;
 }
 a{
 	color: #ffffff;
@@ -106,17 +109,16 @@ header img{
 .sidenavigation{
 	align-items: center;
 	bottom: 0px;
+	box-sizing: border-box;
 	display: flex;
-	flex-direction: row;
 	height: 80px;
-	justify-content: space-between;
 	position: absolute;
 	width: 100%;
-}
 
+	background: red;
+}
 .sidenavigation img{
 	height: 50px;
-	padding: 0 25px;
 	width: auto;
 }
 
@@ -139,8 +141,9 @@ nav img{
 /* INDEX.html */
 #forside{
 	background-image: url("img/forside.jpg");
-	background-position: center;
+	background-position: 70% 30%;
 	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 /* OVERSIGT.html */
@@ -156,8 +159,13 @@ nav img{
 	width: auto;
 }
 
-/* FIGURSIDER */
-.figurquiz{}
+/* FIGURSIDE(R) */
+.figurquiz{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
 .figurquiz img{
 	height: 150px;
 	width: auto;
@@ -167,17 +175,34 @@ nav img{
 	display: flex;
 	height: 150px;
 	justify-content: space-around;
+	width: 100%;
 }
 .symbol{
 	font-size: 150px;
 }
 .quizsvar{
+	background: white;
+	height: 150px;
 	box-sizing: border-box;
 	margin: 75px 0;
+	width: 150px;
 }
 .quizvalgmuligheder{
 	align-items: center;
 	display: flex;
 	height: 150px;
 	justify-content: space-around;
+	width: 100%;
+}
+
+/* PRMÆIESIDE */
+#preamieside{
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+#preamieside img{
+	height: auto;
+	margin-top: 50px;
+	width: 350px;
 }
