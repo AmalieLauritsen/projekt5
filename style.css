@@ -1,7 +1,7 @@
 /* *** */
 body{
-	background: #808080;
 	color: #ffffff;
+	font-family: 'coop';
 	margin: 0;
 	text-align: center;
 }
@@ -208,8 +208,6 @@ nav img{
 	top: 50%;
 	transform: translateY(-50%);
 	width: 100%;
-
-	background: red;
 }
 .fundet{
 	align-items: center;
@@ -219,7 +217,6 @@ nav img{
 	height: 350px;
 	justify-content: center;
 	width: 350px;
-	background: green;
 }
 .fundet img{
 	height: 250px;

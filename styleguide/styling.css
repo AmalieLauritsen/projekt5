@@ -1,0 +1,74 @@
+/* *** */
+body{
+	margin: 0;
+	font-family: 'coop';
+	text-align: center;
+}
+
+section{
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 50px 0;
+	padding: 50px;
+}
+
+/* TEXT */
+h3{
+	margin: 23px 0 23px 0;
+}
+
+/* FARVER */
+.farver{
+	display: flex;
+
+	background: red;
+}
+.farvetyper{
+	display: flex;
+	flex-direction: row;
+}
+.primeare, .sekundeare, .tints1, .tints2, .status{
+	display: flex;
+	flex-direction: column;
+	margin: 0 25px;
+
+	background: green;
+}
+.farvecirkler{
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+
+	background: blue;
+}
+.circle{
+	border-radius: 50%;
+	height: 100px;
+	margin: 0 10px;
+	width: 100px;
+
+	background: black;
+}
+
+/* FONTS */
+.font{
+	background: green;
+}
+
+/* GRAFISKE ELEMENTER */
+.grafiskeelementer{
+	background: blue;
+}
+
+/* IKONER */
+.ikoner{
+	background: yellow;
+}
+
+/* LOGO */
+.logo{
+	background: orange;
+}
