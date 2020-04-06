@@ -105,21 +105,23 @@ header img{
 	width: 100px;
 }
 
-/* SIDENAVIGATION */
+/* SIDENAVIGATION - tilbge, menupil, gaveikon */
 .sidenavigation{
 	align-items: center;
-	bottom: 0px;
+	bottom: 0;
 	box-sizing: border-box;
 	display: flex;
 	height: 80px;
+	justify-content: center;
 	position: absolute;
 	width: 100%;
-
-	background: red;
 }
 .sidenavigation img{
 	height: 50px;
 	width: auto;
+}
+.menuarrow{
+	margin: 0 100px;
 }
 
 /* NAVIGRATION (footer) */
@@ -159,6 +161,8 @@ nav img{
 	width: auto;
 }
 
+/* SCANSIDE */
+
 /* FIGURSIDE(R) */
 .figurquiz{
 	display: flex;
@@ -195,7 +199,34 @@ nav img{
 	width: 100%;
 }
 
-/* PRMÆIESIDE */
+/* FUNDET FIGURSIDE */
+.fundetfigur{
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+
+	background: red;
+}
+.fundet{
+	align-items: center;
+	border: solid 10px #ffffff;
+	border-radius: 50%;
+	display: flex;
+	height: 350px;
+	justify-content: center;
+	width: 350px;
+	background: green;
+}
+.fundet img{
+	height: 250px;
+	width: auto;
+}
+
+/* PRÆMIESIDE */
 #preamieside{
 	align-items: center;
 	display: flex;
