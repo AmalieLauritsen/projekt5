@@ -29,23 +29,28 @@ var radios = document.getElementsByName('koMuligheder');
 
 document.getElementById("demo").innerHTML = txt;
 
-//txt += ko[info] + ", ";
+var milk = document.getElementById("div1");
+var carrot = document.getElementById("div2");
+var correctCow = document.getElementById("div3");
+
+function allowDrop(ev) {
+  ev.preventDefault();
+}
+
+function drag(ev) {
+  ev.dataTransfer.setData("correct", ev.target.id);
+
+}
+
+function drop(ev) {
+  ev.preventDefault();
+  var data = ev.dataTransfer.getData("correct");
+  ev.target.appendChild(document.getElementById(data));
+	if(data == "milk"){
+		document.getElementById("correct").style.visibility = "visible";
+	} else if (data != "milk"){
+		document.getElementById("wrong").style.visibility = "visible"
+	}
 
 
-
-//
-//for (var i = 0, length = radios.length; i < length; i++) {
-//    if (radios[i].checked) {
-//        // do whatever you want with the checked radio
-//        alert(radios[i].value);
-//
-//        // only one radio can be logically checked, don't check the rest
-//        break;
-//    }
-//}
-//
-//	if (svar == ko.mulighed1){
-//		txt = "Forkert";
-//	} else{
-//		txt = "Rigtigt";
-//	}
+}
