@@ -21,14 +21,14 @@
 		<section id="preamieside">
 			<p>Gå til kassen for at få din</p>
 			<h1>PRÆMIE</h1>
-			<img src="img/icons/gave.png" alt="Præmie-img" style="display:none" id="gaveikon">
+			<img src="img/icons/gave.png" alt="Præmie-img" id="gaveikon">
 <!-- JAVASCRIPT -->
-	<!-- skift IMG -->
+	<!-- display IMG 	-->
 			<script type="text/javascript">
-				function changeImage(){
-					document.getElementById("gaveikon").style.display="block";
+				function displayImage(){
+					document.getElementById("gaveikon").classList.add("showing");
 				}
-				setTimeout(changeImage, 0500);
+				setTimeout(displayImage, 150);
 			</script>
 		</section>
 <!-- SIDENAVIGATION -->
