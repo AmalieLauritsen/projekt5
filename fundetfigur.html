@@ -20,10 +20,23 @@
 <!-- CONTENT -->
 		<section class="fundetfigur">
 			<div class="fundet">
-				<img src="img/icons/gave.png" alt="Den fundnde figur" id="image">
+				<a href="./oversigt.html"><img src="img/icons/gave.png" alt="Den fundnde figur" id="image"></a>
 
 <!-- JAVASCRIPT -->
-
+	<!-- skift IMG -->
+				<script type="text/javascript">
+					function changeImage(){
+						document.getElementById("image").src = "img/icons/hjem-ikon.png";
+					}
+					setTimeout(changeImage, 0500);
+				</script>
+	<!-- skift page -->
+				<script type="text/javascript">
+					function changePage(){
+						location.replace("./oversigt.html")
+					}
+					setTimeout(changePage, 3500);
+				</script>
 			</div>
 		</section>
 <!-- SIDENAVIGATION -->
