@@ -1,11 +1,18 @@
 /* *** */
 body{
-	margin: 0;
+	background: rgba(195, 20, 20, 0.60);
+	color: #ffffff;
 	font-family: 'coop';
+	margin: 0;
 	text-align: center;
 }
 
 section{
+	align-items: center;
+	border-top: 3px solid #C31414;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	padding: 30px;
 }
 
@@ -19,29 +26,36 @@ h2{
 h3{
 	font-size: 15px;
 }
-p{
-	font-size: 10px;
+a{
+	color: #ffffff;
+	text-decoration: none;
+}
+a:hover{
+	color: #C31414;
+}
+
+/* HEADER */
+header{
+	align-items: center;
+	display: flex;
+	height: 100vh;
+	justify-content: center;
 }
 
 /* FARVER */
-.farver{
-	background: red;
-}
+.farver{}
 .farvetyper{
 	display: flex;
 	width: 100%;
 }
-
 .primeare, .sekundeare, .tints1, .tints2, .status{
 	display: flex;
 	flex-direction: column;
-	height: 350px;
-	width: 500px;
-	margin: 10px;
-	background: green;
+	height: 250px;
+	margin: 20px 10px;
 }
 .status{
-	height: 510px;
+	height: 520px;
 	width: 250px;
 }
 .farvecirkler{
@@ -58,21 +72,51 @@ p{
 }
 
 /* FONTS */
-.font{
-	background: green;
+.font{}
+.font img{
+	height: 520px;
+	width: auto;
 }
-
 /* GRAFISKE ELEMENTER */
-.grafiskeelementer{
-	background: blue;
+.grafiskeelementer{}
+.rundecirkler{
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+}
+.rundroed{
+	background: #C31414;
+	border-radius: 50%;
+	height: 250px;
+	margin: 20px 10px;
+	width: 250px;
+}
+.rundgroen{
+	background: #AFCD88;
+	border-radius: 50%;
+	height: 100px;
+	margin: 20px 10px;
+	width: 100px;
+	z-index: 1000;
 }
 
 /* IKONER */
-.ikoner{
-	background: yellow;
+.ikoner{}
+.icons{
+	display: flex;
+	flex-direction: row;
+}
+.icons img{
+	height: 100px;
+	margin: 20px 10px;
+	width: auto;
 }
 
 /* LOGO */
 .logo{
-	background: orange;
+	border-bottom: 3px solid #C31414;
+}
+.logo img{
+	height: 520px;
+	width: auto;
 }
