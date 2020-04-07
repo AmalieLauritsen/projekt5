@@ -21,9 +21,16 @@
 		<section id="preamieside">
 			<p>Gå til kassen for at få din</p>
 			<h1>PRÆMIE</h1>
-			<img src="img/icons/gave.png" alt="Præmie-img">
+			<img src="img/icons/gave.png" alt="Præmie-img" style="display:none" id="gaveikon">
+<!-- JAVASCRIPT -->
+	<!-- skift IMG -->
+			<script type="text/javascript">
+				function changeImage(){
+					document.getElementById("gaveikon").style.display="block";
+				}
+				setTimeout(changeImage, 0500);
+			</script>
 		</section>
-<!-- SIDENAVIGATION -->
 <!-- SIDENAVIGATION -->
 		<div class="sidenavigation">
 			<!-- <a href="./oversigt.html"><div class="sidearrow"><img src="img/icons/arrow_back.png" alt="Navigationspil tilbage"></div></a> -->

@@ -8,7 +8,7 @@
   <meta name="author" content="Gruppe 5">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
-	<title></title>
+	<title>Fundet figur2</title>
 </head>
 <body>
 <!-- CONTAINER -->
@@ -18,6 +18,26 @@
 			<img src="img/logo.png" alt="COOP-logo">
 		</header>
 <!-- CONTENT -->
+		<section class="fundetfigur">
+			<div class="fundet">
+				<a href="./oversigt.html"><img src="img/icons/gave.png" alt="Den fundnde figur" id="image"></a>
+<!-- JAVASCRIPT -->
+	<!-- skift IMG -->
+				<script type="text/javascript">
+					function changeImage(){
+						document.getElementById("image").src = "img/icons/hjem-ikon.png";
+					}
+					setTimeout(changeImage, 0500);
+				</script>
+	<!-- skift page -->
+				<script type="text/javascript">
+					function changePage(){
+						location.replace("./oversigt.html")
+					}
+					setTimeout(changePage, 3500);
+				</script>
+			</div>
+		</section>
 <!-- SIDENAVIGATION -->
 		<div class="sidenavigation">
 			<a href="./oversigt.html"><div class="sidearrow"><img src="img/icons/arrow_back.png" alt="Navigationspil tilbage"></div></a>
