@@ -161,6 +161,35 @@ nav img{
 	width: auto;
 }
 
+#div1, #div2, #div3, #div4 {
+  float: left;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+	text-align: center;
+}
+
+	#div1, #div2, #div4{
+		border: 0;
+	}
+
+	#div4{
+		position: relative;
+	}
+
+	#wrong, #correct{
+		visibility: hidden;
+		position: absolute;
+		top: 6%;
+        left: 6%;
+	}
+
+	#wrong{
+		z-index: 10;
+	}
+
 /* SCANSIDE */
 
 /* FIGURSIDE(R) */
