@@ -36,8 +36,9 @@ a{
 header{
 	align-items: center;
 	display: flex;
-	height: 150px;
+	height: 100px;
 	justify-content: center;
+	padding: 10px 0 50px 0;
 }
 header img{
 	height: 75px;
@@ -157,7 +158,7 @@ nav img{
 	justify-content: space-around;
 }
 .silhouetter img{
-	height: 150px;
+	height: 125px;
 	margin: 25px 0;
 	width: auto;
 }
