@@ -8,7 +8,7 @@
   <meta name="author" content="Gruppe 5">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
-	<title>Figur2</title>
+	<title>Fundet figur1</title>
 </head>
 <body>
 <!-- CONTAINER -->
@@ -17,16 +17,26 @@
 		<header>
 			<img src="img/logo.png" alt="COOP-logo">
 		</header>
-<!-- CONTAINER -->
-		<section class="figurquiz">
-			<div class="figurligemed">
-				<img src="img/icons/hjem.png" alt="Figur2">
-				<p class="symbol">&equals;</p>
-			</div>
-			<div class="quizsvar"></div>
-			<div class="quizvalgmuligheder">
-				<img src="img/figurer/vandflaske.png" alt="quizvalgmulighed1">
-				<img src="img/figurer/sandwich.png" alt="quizvalgmulighed2">
+<!-- CONTENT -->
+		<section class="fundetfigur">
+			<div class="fundet">
+				<a href="./oversigt.html"><img src="img/icons/gave.png" alt="Den fundnde figur" id="image"></a>
+<!-- JAVASCRIPT -->
+	<!-- skift IMG -->
+				<script type="text/javascript">
+					function changeImage(){
+						document.getElementById("image").src = "img/icons/hjem-ikon.png";
+					}
+					setTimeout(changeImage, 0500);
+				</script>
+
+	<!-- skift page -->
+				<script type="text/javascript">
+					function changePage(){
+						location.replace("./oversigt.html")
+					}
+					setTimeout(changePage, 5000);
+				</script>
 			</div>
 		</section>
 <!-- SIDENAVIGATION -->

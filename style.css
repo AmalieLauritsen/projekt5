@@ -136,7 +136,8 @@ nav{
 	width: 100%;
 }
 nav img{
-	height: 50px;
+	height: 60px;
+	margin: 0;
 	width: auto;
 }
 
@@ -240,8 +241,6 @@ nav img{
 }
 .fundet{
 	align-items: center;
-	border: solid 10px #ffffff;
-	border-radius: 50%;
 	display: flex;
 	height: 350px;
 	justify-content: center;
@@ -258,8 +257,15 @@ nav img{
 	display: flex;
 	flex-direction: column;
 }
-#preamieside img{
+#gaveikon{
 	height: auto;
 	margin-top: 50px;
+	opacity: 0;
+	transform: scale(0);
 	width: 350px;
+}
+#gaveikon.showing{
+	opacity: 1;
+	transform: scale(1);
+	transition: 0.75s ease-in-out;
 }
