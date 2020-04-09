@@ -1,14 +1,4 @@
 //FUNDET FIGUR 1, 2, 3, 4
-/*function changeImage(){
-	document.getElementById("silhouet1").src = "img/figurer/koFarve.png";
-	document.getElementById("silhouet2").src = "img/figurer/broedFarve.png";
-	document.getElementById("silhouet3").src = "img/figurer/toiletpaparFarve.png";
-	document.getElementById("silhouet4").src = "img/figurer/hoeneFarve.png";
-}
-
-setTimeout(changeImage, 1000);*/
-
-
 function changeImage(){
 	var silhouet = document.querySelector(".silhouetter");
 	if (silhouet.src.match("img/figurer/ko.png")){
@@ -27,21 +17,15 @@ function changeImage(){
 
 setTimeout(changeImage, 1000);
 
-
-
 	// 1, 2, 3, 4 skift page
-	/*
 	function changePage(){
 		location.replace("./oversigt.html")
 	}
 
 	setTimeout(changePage, 10000);
-*/
 
-/*
 //PRÆMIESIDE
 function displayImage(){
 	document.getElementById("gaveikon").classList.add("showing");
 }
 setTimeout(displayImage, 150);
-*/
