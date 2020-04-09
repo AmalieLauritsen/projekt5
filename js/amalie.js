@@ -1,4 +1,4 @@
-//FUNDET FIGUR 1, 2, 3, 4
+//FUNDET FIGUR 1, 2, 3, 4 - change image
 function changeImage(){
 	var silhouet = document.querySelector(".silhouetter");
 	if (silhouet.src.match("img/figurer/ko.png")){
@@ -15,14 +15,18 @@ function changeImage(){
 	}
 }
 
-setTimeout(changeImage, 1000);
-
-	// 1, 2, 3, 4 skift page
+setTimeout(changeImage, 350);
+/*
+	//FUNDET FIGUR 1, 2, 3, 4 - change page
 	function changePage(){
 		location.replace("./oversigt.html")
 	}
 
 	setTimeout(changePage, 10000);
+*/
+
+/* OVERSIGT - cookies */
+document.cookie = "path=/fundetfigur1.html";
 
 //PRÆMIESIDE
 function displayImage(){

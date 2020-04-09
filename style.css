@@ -151,13 +151,13 @@ nav img{
 }
 
 /* OVERSIGT.html */
-.silhouetter{
+.oversigtsilhouetter{
 	align-items: center;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
 }
-.silhouetter img{
+.oversigtsilhouetter img{
 	height: 125px;
 	margin: 25px 0;
 	width: auto;
