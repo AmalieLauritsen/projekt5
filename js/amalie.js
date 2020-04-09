@@ -10,18 +10,18 @@ setTimeout(changeImage, 1000);*/
 
 
 function changeImage(){
-	var silhouet =	document.getElementsbyClassName("silhouetter");
+	var silhouet = document.querySelector(".silhouetter");
 	if (silhouet.src.match("img/figurer/ko.png")){
 		silhouet.src = "img/figurer/koFarve.png";
 	}
 	else if (silhouet.src.match("img/figurer/broed.png")){
-		silhouet.src = "img/figurer/broedFarve";
+		silhouet.src = "img/figurer/broedFarve.png";
 	}
 	else if (silhouet.src.match("img/figurer/toiletpaper.png")){
-		silhouet.src = "img/figurer/toiletpaperFarve";
+		silhouet.src = "img/figurer/toiletpaperFarve.png";
 	}
 	else if (silhouet.src.match("img/figurer/hoene.png")){
-		silhouet.src = "img/figurer/hoeneFarve";
+		silhouet.src = "img/figurer/hoeneFarve.png";
 	}
 }
 
