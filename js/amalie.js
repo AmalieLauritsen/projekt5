@@ -23,10 +23,10 @@ setTimeout(changeImage, 350);
 	}
 
 	setTimeout(changePage, 10000);
-
+*/
 /* OVERSIGT - cookies */
 function setCookie{
-	document.cookie = "path=/fundetfigur1.html";
+	document.cookie = "path=/oversigt.html";
 }
 function getCookie{}
 function checkCookie{}
