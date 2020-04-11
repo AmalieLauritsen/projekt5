@@ -23,13 +23,17 @@ setTimeout(changeImage, 350);
 	}
 
 	setTimeout(changePage, 10000);
-*/
 
 /* OVERSIGT - cookies */
-document.cookie = "path=/fundetfigur1.html";
+function setCookie{
+	document.cookie = "path=/fundetfigur1.html";
+}
+function getCookie{}
+function checkCookie{}
 
 //PRÆMIESIDE
-function displayImage(){
+function displayGift(){
 	document.getElementById("gaveikon").classList.add("showing");
 }
-setTimeout(displayImage, 150);
+
+setTimeout(displayGift, 150);
