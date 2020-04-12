@@ -32,12 +32,12 @@
 		</section>
 <!-- SIDENAVIGATION -->
 		<div class="sidenavigation">
-			<!-- <a href="./oversigt.html"><div class="sidearrow"><img src="img/icons/arrow_back.png" alt="Navigationspil tilbage"></div></a> -->
-			<div class="menuarrow"><img src="img/icons/arrow_up.png" alt="Navigationspil op"></div>
-			<!-- <a href="./preamie.html"<div class="giftnav"><img src="img/icons/gave.png" alt="Navigation til præmieside"></div></a> -->
+			
+			<div class="menuarrow" onclick="myFunction()" id="pil"><img src="img/icons/arrow_up.png" alt="Navigationspil op"></div>
+			
 		</div>
-<!-- NAVIGATION (footer)
-		<nav>
+<!-- NAVIGATION (footer)-->
+		<nav id="menu">
 			<a href="./index.html"><img src="img/icons/hjem-ikon.png" alt="hjem-navigationsikon"></a>
 			<a href="#"><img src="img/icons/tilbudsaviser-ikon.png" alt="tilbudsaviser-navigationsikon"></a>
 			<a href="#"><img src="img/icons/liste-ikon.png" alt="indkøbsliste-navigationsikon"></a>
@@ -45,7 +45,17 @@
 			<a href="./figurjagten.html"><img src="img/icons/figurjagten-ikon.png" alt="figurjagten-navigationsikon"></a>
 			<a href="#"><img src="img/icons/mere-ikon.png" alt="mere-navigationsikon"></a>
 		</nav>
--->
+	
+		<script>
+	function myFunction() {
+  var x = document.getElementById("menu");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+	</script>
 	</div>
 </body>
 </html>
