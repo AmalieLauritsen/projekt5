@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="style.css">
 	<title>Oversigt</title>
 </head>
-<body>
+<body onload ="checkImages()">
 <!-- CONTAINER -->
 	<div class="container">
 <!-- HEADER -->
@@ -18,15 +18,15 @@
 			<img src="img/logo.png" alt="COOP-logo">
 		</header>
 <!-- CONTENT -->
-		<section class="silhouetter">
-			<img src="img/icons/hjem.png" alt="Silhouet af figur1">
-			<img src="img/icons/hjem.png" alt="Silhouet af figur2">
-			<img src="img/icons/hjem.png" alt="Silhouet af figur3">
-			<img src="img/icons/hjem.png" alt="Silhouet af figur4">
+		<section class="oversigtsilhouetter">
+			<a href="./scan.html"><img src="img/figurer/ko.png" alt="Silhouet af figur1" id="overbil1"></a>
+			<a href="./scan.html"><img src="img/figurer/broed.png" alt="Silhouet af figur2" id="overbil2"></a>
+			<a href="./scan.html"><img src="img/figurer/toiletpaper.png" alt="Silhouet af figur3" id="overbil3"></a>
+			<a href="./scan.html"><img src="img/figurer/hoene.png" alt="Silhouet af figur4" id="overbil4"></a>
 		</section>
 		<div class="qrscanicontext">
 			<div class="qrscanicon">
-				<img src="img/icons/qr-icon.png" alt="QR-ikon">
+				<a href="./scan.html"><img src="img/icons/qr-icon.png" alt="QR-ikon"></a>
 			</div>
 			<p>SKAN DE SKJULTE FIGURER</p>
 		</div>
@@ -57,5 +57,6 @@
 }
 	</script>
 	</div>
+	<script src="js/amalie.js"></script>
 </body>
 </html>
