@@ -1,7 +1,7 @@
 /* *** */
 body{
-	background: #808080;
 	color: #ffffff;
+	font-family: 'coop';
 	margin: 0;
 	text-align: center;
 }
@@ -9,6 +9,7 @@ body{
 .container{
 	background: #EBC369;
 	height: 896px;
+	position: relative;
 	width: 414px;
 }
 
@@ -17,13 +18,14 @@ h1{
 	font-size: 25px;
 	margin: 0;
 }
-
-h2{}
-
-p{
-	font-size: 15px;
+h2{
+	font-size: 20px;
+	margin: 0;
 }
 
+p{
+	font-size: 20px;
+}
 a{
 	color: #ffffff;
 	cursor: pointer;
@@ -36,10 +38,10 @@ header{
 	display: flex;
 	height: 100px;
 	justify-content: center;
+	padding: 10px 0 50px 0;
 }
-
 header img{
-	height: 80px;
+	height: 75px;
 	width: auto;
 }
 
@@ -48,6 +50,10 @@ header img{
 	align-items: center;
 	display: flex;
 	justify-content: center;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
 }
 .rundroed{
 	background: #C31414;
@@ -63,9 +69,12 @@ header img{
 	background: #AFCD88;
 	border-radius: 50%;
 	display: flex;
-	height: 150px;
+	height: 100px;
 	justify-content: center;
-	width: 150px;
+	left: 60%;
+	position: absolute;
+	top: 75%;
+	width: 100px;
 }
 .rundecirkler a{
 	align-items: center;
@@ -73,40 +82,192 @@ header img{
 	justify-content: center;
 }
 .rundecirkler img{
-	height: 150px;
+	height: 100px;
 	width: auto;
+}
+
+/* QR-ICON */
+.qrscanicontext{
+	align-items: center;
+	bottom: 150px;
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	width: 100%;
+}
+.qrscanicon{
+	background: #AFCD88;
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+}
+.qrscanicontext img{
+	height: 100px;
+	width: 100px;
+}
+
+/* SIDENAVIGATION - tilbge, menupil, gaveikon */
+.sidenavigation{
+	align-items: center;
+	bottom: 0;
+	box-sizing: border-box;
+	display: flex;
+	height: 80px;
+	justify-content: center;
+	position: absolute;
+	width: 100%;
+}
+.sidenavigation img{
+	height: 50px;
+	width: auto;
+}
+.menuarrow{
+	margin: 0 100px;
 }
 
 /* NAVIGRATION (footer) */
 nav{
 	align-items: center;
 	background: #ffffff;
+	bottom: 0;
 	display: flex;
+	display: none;
 	height: 80px;
 	justify-content: space-around;
+	position: absolute;
 	width: 100%;
 }
 nav img{
-	height: 50px;
+	height: 60px;
+	margin: 0;
 	width: auto;
 }
 
 /* INDEX.html */
 #forside{
 	background-image: url("img/forside.jpg");
-	background-position: center;
+	background-position: 70% 30%;
 	background-size: cover;
+	background-repeat: no-repeat;
 }
 
 /* OVERSIGT.html */
-.silhouetter{
+.oversigtsilhouetter{
 	align-items: center;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
 }
+.oversigtsilhouetter img{
+	height: 125px;
+	margin: 25px 0;
+	width: auto;
+}
 
-.silhouetter img{
+#div1, #div2, #div3, #div4 {
+  float: left;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+	text-align: center;
+}
+
+	#div1, #div2, #div4{
+		border: 0;
+	}
+
+	#div4{
+		position: relative;
+	}
+
+	#wrong, #correct{
+		visibility: hidden;
+		position: absolute;
+		top: 6%;
+        left: 6%;
+	}
+
+	#wrong{
+		z-index: 10;
+	}
+
+/* SCANSIDE */
+
+/* FIGURSIDE(R) */
+.figurquiz{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.figurquiz img{
 	height: 150px;
 	width: auto;
+}
+.figurligemed{
+	align-items: center;
+	display: flex;
+	height: 150px;
+	justify-content: space-around;
+	width: 100%;
+}
+.symbol{
+	font-size: 150px;
+}
+.quizsvar{
+	background: white;
+	height: 150px;
+	box-sizing: border-box;
+	margin: 75px 0;
+	width: 150px;
+}
+.quizvalgmuligheder{
+	align-items: center;
+	display: flex;
+	height: 150px;
+	justify-content: space-around;
+	width: 100%;
+}
+
+/* FUNDET FIGURSIDE */
+.fundetfigur{
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+}
+.fundet{
+	align-items: center;
+	display: flex;
+	height: 350px;
+	justify-content: center;
+	width: 350px;
+}
+.fundet img{
+	height: 250px;
+	width: auto;
+}
+
+/* PRÆMIESIDE */
+#preamieside{
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+#gaveikon{
+	height: auto;
+	margin-top: 50px;
+	opacity: 0;
+	transform: scale(0);
+	width: 350px;
+}
+#gaveikon.showing{
+	opacity: 1;
+	transform: scale(1);
+	transition: 0.75s ease-in-out;
 }

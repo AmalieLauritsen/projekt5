@@ -1,0 +1,127 @@
+/* *** */
+body{
+	background: rgba(195, 20, 20, 0.35);
+	color: #ffffff;
+	font-family: 'coop';
+	margin: 0;
+	text-align: center;
+}
+
+section{
+	align-items: center;
+	border-top: 3px solid #C31414;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 30px;
+}
+
+/* TEXT */
+h1{
+	font-size: 30px;
+}
+h2{
+	font-size: 20px;
+}
+h3{
+	font-size: 15px;
+}
+a{
+	color: #ffffff;
+	text-decoration: none;
+}
+a:hover{
+	color: #C31414;
+}
+
+/* HEADER */
+header{
+	align-items: center;
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+}
+
+/* FARVER */
+.farver{}
+.farvetyper{
+	display: flex;
+	width: 100%;
+}
+.primeare, .sekundeare, .tints1, .tints2, .status{
+	display: flex;
+	flex-direction: column;
+	height: 250px;
+	margin: 20px 10px;
+}
+.status{
+	height: 520px;
+	width: 250px;
+}
+.farvecirkler{
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.circle{
+	border-radius: 50%;
+	height: 75px;
+	margin: 10px;
+	width: 75px;
+}
+
+/* FONTS */
+.font{}
+.font img{
+	height: 520px;
+	width: auto;
+}
+/* GRAFISKE ELEMENTER */
+.grafiskeelementer{}
+.rundecirkler{
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+}
+.rundroed{
+	background: #C31414;
+	border-radius: 50%;
+	height: 250px;
+	margin: 20px 10px;
+	width: 250px;
+}
+.rundgroen{
+	background: #AFCD88;
+	border-radius: 50%;
+	height: 100px;
+	margin: 20px 10px;
+	width: 100px;
+	z-index: 1000;
+}
+
+/* IKONER */
+.ikoner{}
+.iconbox{
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+.icons{
+	display: flex;
+	flex-direction: row;
+}
+.icons img{
+	height: 100px;
+	margin: 20px 10px;
+	width: auto;
+}
+
+/* LOGO */
+.logo{
+	border-bottom: 3px solid #C31414;
+}
+.logo img{
+	height: 520px;
+	width: auto;
+}

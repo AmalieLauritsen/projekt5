@@ -8,21 +8,32 @@
   <meta name="author" content="Gruppe 5">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
-	<title>Oversigt</title>
+	<title></title>
 </head>
 <body>
+<!-- CONTAINER -->
 	<div class="container">
+<!-- HEADER -->
 		<header>
 			<img src="img/logo.png" alt="COOP-logo">
 		</header>
+<!-- CONTENT -->
+<!-- SIDENAVIGATION -->
+		<div class="sidenavigation">
+			<a href="./oversigt.html"><div class="sidearrow"><img src="img/icons/arrow_back.png" alt="Navigationspil tilbage"></div></a>
+			<div class="menuarrow"><img src="img/icons/arrow_up.png" alt="Navigationspil op"></div>
+			<a href="./preamie.html"<div class="giftnav"><img src="img/icons/gave.png" alt="Navigation til præmieside"></div></a>
+		</div>
+<!-- NAVIGATION (footer)
 		<nav>
-			<a href="#"><img src="img/icons/hjem.png" alt="hjem-navigationsikon"></a>
-			<a href="#"><img src="img/icons/hjem.png" alt="hjem-navigationsikon"></a>
-			<a href="#"><img src="img/icons/hjem.png" alt="hjem-navigationsikon"></a>
-			<a href="#"><img src="img/icons/hjem.png" alt="hjem-navigationsikon"></a>
-			<a href="#"><img src="img/icons/hjem.png" alt="hjem-navigationsikon"></a>
-			<a href="#"><img src="img/icons/hjem.png" alt="hjem-navigationsikon"></a>
+			<a href="./index.html"><img src="img/icons/hjem-ikon.png" alt="hjem-navigationsikon"></a>
+			<a href="#"><img src="img/icons/tilbudsaviser-ikon.png" alt="tilbudsaviser-navigationsikon"></a>
+			<a href="#"><img src="img/icons/liste-ikon.png" alt="indkøbsliste-navigationsikon"></a>
+			<a href="#"><img src="img/icons/tilkassen-ikon.png" alt="tilkassen-navigationsikon"></a>
+			<a href="./figurjagten.html"><img src="img/icons/figurjagten-ikon.png" alt="figurjagten-navigationsikon"></a>
+			<a href="#"><img src="img/icons/mere-ikon.png" alt="mere-navigationsikon"></a>
 		</nav>
+-->
 	</div>
 </body>
 </html>

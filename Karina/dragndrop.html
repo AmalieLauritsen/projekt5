@@ -1,0 +1,64 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Drag and Drop box</title>
+
+        <script>
+            function allowDrop(ev) {
+                ev.preventDefault();
+            }
+
+            function dragStart(ev) {
+                ev.dataTransfer.setData("text", ev.target.id);
+            }
+
+            function dragDrop(ev) {
+                ev.preventDefault();
+                var data = ev.dataTransfer.getData("text");
+                ev.target.appendChild(document.getElementById(data));
+            }
+        </script>
+
+        <style>
+            #box {
+                margin: auto;
+                width: 50%;
+                height:200px;
+                border: 3px solid darkred;
+                padding: 10px;
+            }
+            #box1, #box2, #box3 {
+                float: left;
+                margin: 5px;
+                padding: 10px;
+            }
+            #box1 {
+                width: 150px;
+                height: 150px;
+                background-color: #FFE65F;
+            }
+            #box2 {
+                width: 150px;
+                height: 150px;
+                background-color: #C31414;
+            }
+            #box3 {
+                width: 150px;
+                height: 150px;
+                background-color: #9A867D;
+            }
+
+
+
+        </style>
+    </head>
+
+    <body>
+
+        <div id = "box">
+            <div id="box1" draggable="true"ondragstart="dragStart(event)"></div>
+            <div id="box2" draggable="true"ondragstart="dragStart(event)"></div>
+            <div id="box3" ondrop="dragDrop(event)" ondragover="allowDrop(event)"></div>
+        </div>
+    </body>
+</html>

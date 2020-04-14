@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="da-DK" dir="ltr">
+<head>
+<!-- META-tags -->
+	<meta charset="UTF-8">
+  <meta name="description" content="COOP-figurjagten">
+  <meta name="keywords" content="HTML,CSS,JavaScript">
+  <meta name="author" content="Gruppe 5">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Figur1</title>
+</head>
+<body>
+<!-- CONTAINER -->
+	<div class="container">
+<!-- HEADER -->
+		<header>
+			<img src="img/logo.png" alt="COOP-logo">
+		</header>
+<!-- CONTENT -->
+		<section class="figurquiz">
+			<div class="figurligemed">
+				<img src="img/figurer/cow-test.png" alt="Figur1">
+				<p class="symbol">&equals;</p>
+			</div>
+			<div id="div4">
+			<img src="../img/figurer/correct.png" id="correct" width="150" height="150">
+			<img src="../img/figurer/wrong.png" id="wrong" width="150" height="150">
+			</div>
+<!--			<div class="quizvalgmuligheder">
+				<img src="img/figurer/carrot.png" alt="quizvalgmulighed1">
+				<img src="img/figurer/milk.png" alt="quizvalgmulighed2">
+			</div>-->
+	<div class="quizvalgmuligheder">
+		<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+  			<img src="img/figurer/carrot.png" draggable="true" ondragstart="drag(event)" id="carrot" width="55" height="150">
+		</div>
+
+		<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)">
+		  <img src="../img/figurer/milk.png" draggable="true" ondragstart="drag(event)" id="milk" width="98" height="150">
+		</div>
+	</div>
+		</section>
+<!-- SIDENAVIGATION -->
+		<div class="sidenavigation">
+			<a href="./oversigt.html"><div class="sidearrow"><img src="img/icons/arrow_back.png" alt="Navigationspil tilbage"></div></a>
+			<div class="menuarrow"><img src="img/icons/arrow_up.png" alt="Navigationspil op"></div>
+			<a href="./preamie.html"<div class="giftnav"><img src="img/icons/gave.png" alt="Navigation til præmieside"></div></a>
+		</div>
+<!-- NAVIGATION (footer) -->
+		<nav id="menu">
+			<a href="#"><img src="img/icons/hjem.png" alt="hjem-navigationsikon"></a>
+			<a href="#"><img src="img/icons/hjem.png" alt="hjem-navigationsikon"></a>
+			<a href="#"><img src="img/icons/hjem.png" alt="hjem-navigationsikon"></a>
+			<a href="#"><img src="img/icons/hjem.png" alt="hjem-navigationsikon"></a>
+			<a href="#"><img src="img/icons/hjem.png" alt="hjem-navigationsikon"></a>
+			<a href="#"><img src="img/icons/hjem.png" alt="hjem-navigationsikon"></a>
+		</nav>
+
+		<script src="js/frederikke.js">
+
+	</script>
+	</div>
+</body>
+</html>

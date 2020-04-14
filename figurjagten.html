@@ -11,30 +11,41 @@
 	<title>Figurjagten</title>
 </head>
 <body>
+<!-- CONTAINER -->
 	<div class="container">
+<!-- HEADER -->
 		<header>
 			<img src="img/logo.png" alt="COOP-logo">
 		</header>
+<!-- CONTENT -->
 		<h1>FIGURJAGTEN</h1>
-		<p>find de gemte figurer rundt i butikken og skan QR-koden<br>for at vinde en præmie ved kassen</p>
-		<div class="rundecirkler">
+		<p>find de gemte figurer rundt i butikken<br>og skan QR-koden for at vinde en<br>præmie ved kassen</p>
+		<section class="rundecirkler">
 			<a href="#">
-				<div class="rundroed">
+				<a href="./oversigt.html"><div class="rundroed">
 					<h1>START<br>FIGURJAGTEN</h1>
-				</div>
+				</div></a>
 			</a>
 			<div class="rundgroen">
 				<img src="img/icons/qr-icon.png" alt="QR-ikon">
 			</div>
+		</section>
+<!-- SIDENAVIGATION -->
+		<div class="sidenavigation">
+
+			<div class="menuarrow" onclick="myFunction()" id="pil"><img src="img/icons/arrow_up.png" alt="Navigationspil op"></div>
+
 		</div>
-		<nav>
-			<a href="#"><img src="img/icons/hjem.png" alt="hjem-navigationsikon"></a>
-			<a href="#"><img src="img/icons/hjem.png" alt="hjem-navigationsikon"></a>
-			<a href="#"><img src="img/icons/hjem.png" alt="hjem-navigationsikon"></a>
-			<a href="#"><img src="img/icons/hjem.png" alt="hjem-navigationsikon"></a>
-			<a href="#"><img src="img/icons/hjem.png" alt="hjem-navigationsikon"></a>
-			<a href="#"><img src="img/icons/hjem.png" alt="hjem-navigationsikon"></a>
+<!-- NAVIGATION (footer)-->
+		<nav id="menu">
+			<a href="./index.html"><img src="img/icons/hjem-ikon.png" alt="hjem-navigationsikon"></a>
+			<a href="#"><img src="img/icons/tilbudsaviser-ikon.png" alt="tilbudsaviser-navigationsikon"></a>
+			<a href="#"><img src="img/icons/liste-ikon.png" alt="indkøbsliste-navigationsikon"></a>
+			<a href="#"><img src="img/icons/tilkassen-ikon.png" alt="tilkassen-navigationsikon"></a>
+			<a href="./figurjagten.html"><img src="img/icons/figurjagten-ikon.png" alt="figurjagten-navigationsikon"></a>
+			<a href="#"><img src="img/icons/mere-ikon.png" alt="mere-navigationsikon"></a>
 		</nav>
+		<script src="js/frederikke.js"></script>
 	</div>
 </body>
 </html>
