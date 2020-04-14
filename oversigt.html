@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="style.css">
 	<title>Oversigt</title>
 </head>
-<body>
+<body onload ="checkImages()">
 <!-- CONTAINER -->
 	<div class="container">
 <!-- HEADER -->
@@ -18,15 +18,15 @@
 			<img src="img/logo.png" alt="COOP-logo">
 		</header>
 <!-- CONTENT -->
-		<section class="silhouetter">
-			<a href="figur1.html"><img src="img/figurer/cow-test.png" alt="Silhouet af figur1"></a>
-			<a href="figur2.html"><img src="img/figurer/sandwich-test.png" alt="Silhouet af figur2"></a>
-			<a href="figur3.html"><img src="img/figurer/toilet-paper-test.png" alt="Silhouet af figur3"></a>
-			<a href="figur4.html"><img src="img/figurer/chicken-test.png" alt="Silhouet af figur4"></a>
+		<section class="oversigtsilhouetter">
+			<a href="./scan.html"><img src="img/figurer/ko.png" alt="Silhouet af figur1" id="overbil1"></a>
+			<a href="./scan.html"><img src="img/figurer/broed.png" alt="Silhouet af figur2" id="overbil2"></a>
+			<a href="./scan.html"><img src="img/figurer/toiletpaper.png" alt="Silhouet af figur3" id="overbil3"></a>
+			<a href="./scan.html"><img src="img/figurer/hoene.png" alt="Silhouet af figur4" id="overbil4"></a>
 		</section>
 		<div class="qrscanicontext">
 			<div class="qrscanicon">
-				<img src="img/icons/qr-icon.png" alt="QR-ikon">
+				<a href="./scan.html"><img src="img/icons/qr-icon.png" alt="QR-ikon"></a>
 			</div>
 			<p>SKAN DE SKJULTE FIGURER</p>
 		</div>
@@ -36,8 +36,8 @@
 			<div class="menuarrow"><img src="img/icons/arrow_up.png" alt="Navigationspil op"></div>
 			<!-- <a href="./preamie.html"<div class="giftnav"><img src="img/icons/gave.png" alt="Navigation til præmieside"></div></a> -->
 		</div>
-<!-- NAVIGATION (footer)
-		<nav>
+<!-- NAVIGATION (footer) -->
+		<nav id="menu">
 			<a href="./index.html"><img src="img/icons/hjem-ikon.png" alt="hjem-navigationsikon"></a>
 			<a href="#"><img src="img/icons/tilbudsaviser-ikon.png" alt="tilbudsaviser-navigationsikon"></a>
 			<a href="#"><img src="img/icons/liste-ikon.png" alt="indkøbsliste-navigationsikon"></a>
@@ -45,7 +45,8 @@
 			<a href="./figurjagten.html"><img src="img/icons/figurjagten-ikon.png" alt="figurjagten-navigationsikon"></a>
 			<a href="#"><img src="img/icons/mere-ikon.png" alt="mere-navigationsikon"></a>
 		</nav>
--->
+		<script src="js/frederikke.js"></script>
 	</div>
+	<script src="js/amalie.js"></script>
 </body>
 </html>

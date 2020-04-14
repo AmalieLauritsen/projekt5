@@ -1,6 +1,6 @@
 /* *** */
 body{
-	background: rgba(195, 20, 20, 0.60);
+	background: rgba(195, 20, 20, 0.35);
 	color: #ffffff;
 	font-family: 'coop';
 	margin: 0;
@@ -102,6 +102,11 @@ header{
 
 /* IKONER */
 .ikoner{}
+.iconbox{
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
 .icons{
 	display: flex;
 	flex-direction: row;
