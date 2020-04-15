@@ -1,0 +1,309 @@
+/* *** */
+body{
+	color: #ffffff;
+	font-family: 'coop';
+	margin: 0;
+	text-align: center;
+}
+
+.container{
+	background: #EBC369;
+	height: 896px;
+	position: relative;
+	width: 414px;
+}
+
+/* TEXT */
+h1{
+	font-size: 25px;
+	margin: 0;
+}
+h2{
+	font-size: 20px;
+	margin: 0;
+}
+
+p{
+	font-size: 20px;
+}
+a{
+	color: #ffffff;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+/* HEADER */
+header{
+	align-items: center;
+	display: flex;
+	height: 100px;
+	justify-content: center;
+	padding: 10px 0 50px 0;
+}
+header img{
+	height: 75px;
+	width: auto;
+}
+
+/* RUNDE CIRKLER */
+.rundecirkler{
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+}
+.rundroed{
+	background: #C31414;
+	border-radius: 50%;
+	display: flex;
+	flex-direction: column;
+	height: 250px;
+	justify-content: center;
+	width: 250px;
+}
+.rundgroen{
+	align-items: center;
+	background: #AFCD88;
+	border-radius: 50%;
+	display: flex;
+	height: 100px;
+	justify-content: center;
+	left: 60%;
+	position: absolute;
+	top: 75%;
+	width: 100px;
+}
+.rundecirkler a{
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+.rundecirkler img{
+	height: 100px;
+	width: auto;
+}
+
+/* QR-ICON */
+.qrscanicontext{
+	align-items: center;
+	bottom: 150px;
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	width: 100%;
+}
+.qrscanicon{
+	background: #AFCD88;
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+}
+.qrscanicontext img{
+	height: 100px;
+	width: 100px;
+}
+
+/* SIDENAVIGATION - tilbge, menupil, gaveikon */
+.sidenavigation{
+	align-items: center;
+	bottom: 0;
+	box-sizing: border-box;
+	display: flex;
+	height: 80px;
+	justify-content: center;
+	position: absolute;
+	width: 100%;
+	background: lightgrey;
+}
+.sidenavigation img{
+	height: 50px;
+	width: auto;
+}
+.menuarrow{
+	margin: 0 100px;
+}
+
+/* NAVIGRATION (footer) */
+nav{
+	align-items: center;
+	background: #ffffff;
+	bottom: 0;
+	display: flex;
+	display: none;
+	height: 80px;
+	justify-content: space-around;
+	position: absolute;
+	width: 100%;
+}
+nav img{
+	height: 60px;
+	margin: 0;
+	width: auto;
+}
+
+/* INDEX.html */
+#forside{
+	background-image: url("img/forside.jpg");
+	background-position: 70% 30%;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/* OVERSIGT.html */
+.oversigtsilhouetter{
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.oversigtsilhouetter img{
+	height: 125px;
+	margin: 25px 0;
+	width: auto;
+}
+
+#mulighed1, #mulighed2, #div3, #div4 {
+  float: left;
+  width: 100px;
+  height: 150px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid black;
+	text-align: center;
+}
+
+	#mulighed1, #mulighed2, #div4{
+		border: 0;
+	}
+
+	#div4{
+		position: relative;
+	}
+
+#mulighed1, #mulighed2 {
+    margin: 0;
+}
+
+#wrong, #correct{
+		visibility: hidden;
+		position: absolute;
+	width: 100px;
+	height: 100px;
+	margin-left: -45px;
+	}
+
+#wrong{
+		z-index: 10;
+	}
+
+/* SCANSIDE */
+
+/* FIGURSIDE(R) */
+.figurquiz{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.figurquiz img{
+	height: 150px;
+	width: auto;
+}
+.figurligemed{
+	align-items: center;
+	display: flex;
+	height: 150px;
+	justify-content: space-around;
+	width: 100%;
+}
+.symbol{
+	font-size: 150px;
+}
+.quizsvar{
+	background: white;
+	box-sizing: border-box;
+	margin: 75px 0;
+	width: 200px;
+	height: 200px;
+	padding-top: 25px;
+	background-image: url(../img/figurer/questionMark.png)
+}
+.quizvalgmuligheder{
+	align-items: center;
+	display: flex;
+	height: 150px;
+	justify-content: space-around;
+	width: 100%;
+}
+
+/* FUNDET FIGURSIDE */
+.fundetfigur{
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+}
+.fundet{
+	align-items: center;
+	display: flex;
+	height: 350px;
+	justify-content: center;
+	width: 350px;
+}
+.fundet img{
+	height: 250px;
+	width: auto;
+}
+
+/* PRÆMIESIDE */
+#preamieside{
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+#gaveikon{
+	height: auto;
+	margin-top: 50px;
+	opacity: 0;
+	transform: scale(0);
+	width: 350px;
+}
+#gaveikon.showing{
+	opacity: 1;
+	transform: scale(1);
+	transition: 0.75s ease-in-out;
+}
+
+#div1 {
+
+}
+
+#mulighed2 {
+	margin-right: 50px;
+}
+
+#mulighed1 {
+	margin-left: 50px;
+}
+
+#figur3-body #mulighed1 {
+	margin-left: 0px;
+}
+
+#figur3-body #mulighed2{
+	margin-right: 75px
+}
+
+#figur2-body #mulighed2 {
+	margin-right: 90px;
+}
+
+#figur4-body #mulighed2 {
+	margin-right: 60px;
+}

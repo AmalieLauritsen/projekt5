@@ -1,13 +1,5 @@
+/*
 //Dette er Fatmes Javascript fil
-
-
-/* [THE "DATABASE" - QUESTIONS, OPTIONS, ANSWERS] */
-// An array that contains objects
-// In the format of {q: QUESTION, o: OPTIONS, a: CORRECT ANSWER}
-
-
-//Dette er et array
-//var ko = { mulighed1:"gulerod", mulighed2:"maelk"};
 
 var svar = "maelk";
 
@@ -31,6 +23,10 @@ document.getElementById("demo").innerHTML = txt;
 
 var milk = document.getElementById("mulighed1");
 var carrot = document.getElementById("mulighed2");
+*/
+
+
+//Start
 
 function allowDrop(ev) {
   ev.preventDefault();
@@ -41,13 +37,14 @@ function drag(ev) {
 
 }
 
-//Find koen
+//Tekke rigtige og forkerte svar
 function drop(ev) {
   ev.preventDefault();
   var data = ev.dataTransfer.getData("correct");
   ev.target.appendChild(document.getElementById(data));
 	if(data == "milk"){
 		document.getElementById("correct").style.visibility = "visible";
+		
 	} else if (data != "milk"){
 		document.getElementById("wrong").style.visibility = "visible"
 		//Opdater siden så man kan prøve igen - forsinkelse på 1 sekund
