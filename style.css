@@ -199,7 +199,31 @@ nav img{
 		z-index: 10;
 	}
 
-/* SCANSIDE */
+/* SCAN.html*/
+.scan{}
+
+.scan img{
+	height: 350px;
+	width: auto;
+}
+
+.kamerafelt{
+	align-items: center;
+	background: #ffffff;
+	bottom: 0;
+	display: flex;
+	height: 100px;
+	justify-content: center;
+	position: absolute;
+	width: 100%;
+}
+
+.kamera{
+	border: 10px solid #EBC369;
+	border-radius: 50%;
+	height: 75px;
+	width: 75px;
+}
 
 /* FIGURSIDE(R) */
 .figurquiz{
@@ -281,7 +305,7 @@ nav img{
 }
 
 #div1 {
-	
+
 }
 
 #mulighed2 {
