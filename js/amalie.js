@@ -20,7 +20,7 @@ setTimeout(changeImage, 350);
 		}, 10000);
 	}
 
-/* OVERSIGT - localStorage */
+// OVERSIGT - localStorage
 function checkImages(){
 	if (localStorage.getItem("fundet1") != null) {
 		document.getElementById("overbil1").src = localStorage.getItem("fundet1");
@@ -34,11 +34,6 @@ function checkImages(){
 	if (localStorage.getItem("fundet4") != null) {
 		document.getElementById("overbil4").src = localStorage.getItem("fundet4");
 	}
-}
-
-window.onunload = () => {
-   // Clear the local storage
-   window.fundet1.clear()
 }
 
 //PRÆMIESIDE
