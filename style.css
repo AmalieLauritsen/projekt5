@@ -116,7 +116,6 @@ header img{
 	justify-content: center;
 	position: absolute;
 	width: 100%;
-	background: lightgrey;
 }
 .sidenavigation img{
 	height: 50px;
@@ -206,7 +205,6 @@ nav img{
 	height: 350px;
 	width: auto;
 }
-
 .kamerafelt{
 	align-items: center;
 	background: #ffffff;
@@ -217,7 +215,6 @@ nav img{
 	position: absolute;
 	width: 100%;
 }
-
 .kamera{
 	border: 10px solid #EBC369;
 	border-radius: 50%;
