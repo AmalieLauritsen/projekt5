@@ -10,24 +10,37 @@
 	<link rel="stylesheet" href="style.css">
 	<title>Figur3</title>
 </head>
-<body>
+<body id="figur3-body">
 <!-- CONTAINER -->
 	<div class="container">
 <!-- HEADER -->
 		<header>
 			<img src="img/logo.png" alt="COOP-logo">
+			<script src="js/fatme.js"></script>
 		</header>
-<!-- CONTAINER -->
+<!-- CONTENT -->
 		<section class="figurquiz">
 			<div class="figurligemed">
-				<img src="img/icons/hjem.png" alt="Figur3">
+				<img src="img/figurer/toiletpaper.png" alt="Figur1" width="150" height="150">
 				<p class="symbol">&equals;</p>
 			</div>
-			<div class="quizsvar"></div>
-			<div class="quizvalgmuligheder">
-				<img src="img/figurer/smoothie.png" alt="quizvalgmulighed2">
-				<img src="img/figurer/toilet.png" alt="quizvalgmulighed1">
-			</div>
+
+			<div class="quizsvar" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+	<div class="quizvalgmuligheder">
+		<div id="mulighed1" ondrop="drop(event)" ondragover="allowDrop(event)">
+  			<img src="img/figurer/smoothie.png" draggable="true" ondragstart="drag(event)" id="carrot" width="55" height="150">
+		</div>
+
+		<div id="div4">
+			<a href="./fundetfigur3.html"><img src="img/figurer/correct.png" id="correct" width="150" height="150"></a>
+			<img src="img/figurer/wrong.png" id="wrong" width="150" height="150">
+		</div>
+
+		<div id="mulighed2" ondrop="drop(event)" ondragover="allowDrop(event)">
+		  <img src="img/figurer/toilet.png" draggable="true" ondragstart="drag(event)" id="milk" width="98" height="150">
+		</div>
+	</div>
 		</section>
 <!-- SIDENAVIGATION -->
 		<div class="sidenavigation">

@@ -11,6 +11,7 @@ function changeImage(){
 		silhouet.src = "img/figurer/hoeneFarve.png";
 	}
 }
+
 setTimeout(changeImage, 350);
 
 //FUNDET FIGUR 1, 2, 3, 4 - change page
@@ -40,4 +41,5 @@ function checkImages(){
 function displayGift(){
 	document.getElementById("gaveikon").classList.add("showing");
 }
+
 setTimeout(displayGift, 150)
